@@ -1,0 +1,10 @@
+.DS_Store
+.claude/logs/
+
+# Design-phase / source material — kept locally, not part of the deployed site
+/HANDOFF-design-kit.md
+/ASSET_MANIFEST.md
+/isolario-site-prompt.md
+/Isolario.dc.html
+assets/*.png
+assets/*.jpg
