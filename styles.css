@@ -211,6 +211,9 @@ a:hover { color: var(--brass); }
 .footer-links a { font-weight: 400; font-size: 0.72rem; letter-spacing: 0.2em; text-transform: uppercase; white-space: nowrap; color: rgba(250,248,243,0.75); }
 .footer-links a:hover { color: var(--warm); }
 .footer-closing { font-weight: 500; font-size: 0.68rem; letter-spacing: 0.34em; text-indent: 0.34em; text-transform: uppercase; color: rgba(250,248,243,0.6); }
+.footer-credit { font-weight: 500; font-size: 0.6rem; letter-spacing: 0.28em; text-indent: 0.28em; text-transform: uppercase; color: rgba(250,248,243,0.38); }
+.footer-credit a { color: rgba(250,248,243,0.62); border-bottom: 1px solid rgba(176,141,87,0.35); padding-bottom: 2px; transition: color 300ms ease, border-color 300ms ease; }
+.footer-credit a:hover { color: var(--brass); border-bottom-color: var(--brass); }
 
 /* ---- Terrains layout switch: cards on mobile OR reduced-motion ---- */
 @media (max-width: 768px) {
